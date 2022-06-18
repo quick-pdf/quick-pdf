@@ -1,0 +1,377 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="copyright" content="(c) Copyright Quick-PDF 2012. All rights reserved." />
+<meta name="description" content="Today I decided to review four ways to create PDF files that I had faced with while working with my documents." />
+  <title>How to create PDF document without Adobe Acrobat</title>
+  <link type="text/css" rel="stylesheet" media="all" href="/themes/corolla/reset.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="/sites/default/files/css/css_4b8512338ba3b0385390ee7504ba2481.css" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/default/files/css/css_4fcca5229a03655a74eaca102c56201a.css" />
+  <style type="text/css" media="all">/* Base font size */
+html {
+  font-size: 12px;
+}
+
+/* Layout width */
+body.two-sidebars #navigation,
+body.two-sidebars #header,
+body.two-sidebars #main-columns {
+  width: 85%;
+  min-width:800px;
+  max-width: 1000px;
+}
+body.one-sidebar #navigation,
+body.one-sidebar #header,
+body.one-sidebar #main-columns {
+  width: 85%;
+  min-width: 800px;
+  max-width: 1000px;
+}
+body.no-sidebars #navigation,
+body.no-sidebars #header,
+body.no-sidebars #main-columns {
+  width: 60%;
+  min-width: 550px;
+  max-width: 800px;
+}
+
+/**
+ * Color schemes
+ */
+
+/* Background */
+body {
+  background-color: #f8f8f8;
+}
+#navigation > ul > li.active-trail {
+  background-color: #f8f8f8;
+}
+/* Text (black) */
+body,
+#site-name a,
+#navigation li.active a,
+h1.page-title,
+.node h2.node-title,
+.node h1.node-title a,
+.node h2.node-title a,
+.comment h3.title a,
+.tabs ul.tabs li a,
+pre,
+code,
+samp,
+var,
+table.update tr,
+table.system-status-report tr {
+  color: #2e2e2e;
+}
+#site-name a::-moz-selection {
+  background-color: #2e2e2e;
+}
+#site-name a::selection {
+  background-color: #2e2e2e;
+}
+.node-title a::-moz-selection {
+  background-color: #2e2e2e;
+}
+.node-title a::selection {
+  background-color: #2e2e2e;
+}
+/* Link (blue) */
+a,
+a.active,
+li a.active {
+  color: #086782;
+}
+legend {
+  background-color: #086782;
+}
+/* Link hovered (orange) */
+a:hover,
+a:focus,
+a.active:hover,
+a.active:focus,
+li a.active:hover,
+li a.active:focus {
+  color: #e25401;
+  border-bottom-color: #e25401;
+}
+.node h1.node-title a:hover,
+.node h2.node-title a:hover {
+  color: #e25401;
+}
+/* Link underline (light blue) */
+a {
+  border-bottom: 1px solid #cfdde5;
+}
+/* Navigation (black) */
+#navigation-wrapper {
+  background-color: #2e2e2d;
+}
+/* Navigation hovered (orange) */
+#navigation li a:hover,
+#navigation li a:active,
+#navigation li a:focus {
+  background-color: #e25402;
+}
+/* Slogan (orange) */
+#site-slogan {
+  color: #e25400;
+}
+#site-slogan::selection {
+  background-color: #e25402;
+}
+#site-slogan::-moz-selection {
+  background-color: #e25402;
+}
+.poll .bar .foreground {
+  background-color: #e25402;
+}
+/* Border (gray) */
+#page {
+  border: 1px solid #e1e1e1;
+}
+/* Border strong (dark gray) */
+#sidebar-first input,
+#sidebar-second input {
+  border: 1px solid #c4c4c4;
+}
+.tabs ul.tabs li a {
+  border: 1px solid #c4c4c4;
+}
+/* Tab */
+.tabs ul.tabs li a {
+  background-color: #f5f4f3;
+}
+ul.vertical-tabs-list li a {
+  background-color: #f5f4f3;
+}
+/* Block title (green) */
+.block h2,
+h2 {
+  color: #779125;
+}
+.block h2::selection {
+  color: #fff;
+  background-color: #779125;
+}
+.block h2::-moz-selection {
+  background-color: #779125;
+  color: #fff;
+}
+/* Fieldset (gray) */
+fieldset {
+  background-color: #fbfbfb;
+}
+/* Fieldset border (dark gray) */
+fieldset {
+  border: 1px solid #e1e1e2;
+}
+
+</style> 
+
+  <!--[if lte IE 8]>
+  <link type="text/css" rel="stylesheet" href="/themes/corolla/ie8.css" media="all" />
+  <![endif]-->
+
+  <!--[if lte IE 7]>
+  <link type="text/css" rel="stylesheet" href="/themes/corolla/ie7.css" media="all" />
+  <![endif]-->
+
+  <!--[if lte IE 6]>
+  <link type="text/css" rel="stylesheet" href="/themes/corolla/ie6.css" media="all" />
+  <![endif]-->
+
+  </head>
+<body class="not-front not-logged-in page-node node-type-page  no-sidebars">
+
+  <div id="skip-link">
+      <a href="#main-content">Skip to main content</a>
+  </div>
+      
+      <div id="navigation-wrapper">
+      <div id="navigation" class="clear-block">
+        <ul class="menu"><li class="leaf first"><a href="/" title="">Home</a></li>
+<li class="leaf"><a href="/products.htm" title="">Products</a></li>
+<li class="leaf"><a href="/download.htm" title="">Download</a></li>
+<li class="leaf"><a href="/purchase.htm" title="">Purchase</a></li>
+<li class="leaf last"><a href="/support.htm" title="">Support</a></li>
+</ul>      </div> <!-- /#navigation -->
+    </div>
+  
+
+  <div id="header-wrapper">
+    <div id="header" class="clear-block">
+
+              <div id="branding-wrapper" class="clear-block">
+          <div id="branding">
+
+                          <div id="logo">
+                <a href="/" title="Home" rel="home">
+                  <img src="/themes/corolla/logo.png" alt="Home" />
+                </a>
+              </div>
+            
+                          <div id="name-and-slogan">
+                                  <div id="site-name">
+                    <a href="/" title="Home" rel="home">Quick-PDF Software</a>
+                  </div>
+                
+                              <div id="site-slogan">convert pdf easily and quickly</div>
+                            </div> <!-- /name-and-slogan -->
+            
+          </div> <!-- /#branding -->
+        </div> <!-- /#branding-wrapper -->
+      
+      
+    </div> <!-- /#header -->
+  </div> <!-- /#header-wrapper -->
+
+  <div id="main-columns-wrapper">
+    <div id="main-columns">
+      
+      <div id="main-wrapper" class=" first last">
+  <div id="main">
+    <div id="page" class="clear-block">
+            
+      
+      
+      
+      <a id="main-content"></a>
+              <h1 class="page-title">4 easy ways to create a PDF document</h1>
+      
+      
+              <div class="region region-content">
+          <div id="node-27" class="node">
+
+  <div class="node-header">
+
+    
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+        <p><span lang="en-US">If publishing of e-books and articles in PDF format is a part of your usual work in the Web, then you probably already asked yourself (or still asking), </span><span lang="en-US">what is the best tool to create PDF?<b> </b></span><span lang="en-US">Indeed, there are plenty of products and services to create a PDF document, including both free and relatively cheap paid solutions. Each program has its advantages and disadvantages. Today I decided to review four ways to create PDF files that I had faced with while working with my documents.</span></p>
+<h2 class="western">pdf24.org service</h2>
+<p class="western" style="margin-bottom: 0in">This is a great PDF creation service.</p>
+<p class="western" style="margin-bottom: 0in">&nbsp;</p>
+<p class="western" style="margin-bottom: 0in"><img align="bottom" width="400" height="246" src="/pdf24.jpg" alt="" /></p>
+<p class="western" style="margin-bottom: 0in">&nbsp;</p>
+<p>The service supports the following source formats:</p>
+<ul>
+<li>HTML (<strong>htm html</strong>)</li>
+<li><span lang="en-US">Bilder</span> 	(<strong><span lang="en-US">jpg</span></strong><strong> </strong><strong><span lang="en-US">jpeg</span></strong><strong> 	</strong><strong><span lang="en-US">png</span></strong><strong> </strong><strong><span lang="en-US">bmp</span></strong><strong> 	</strong><strong><span lang="en-US">gif</span></strong><strong> </strong><strong><span lang="en-US">tiff</span></strong><strong> 	</strong><strong><span lang="en-US">tif</span></strong><strong> </strong><strong><span lang="en-US">emf</span></strong><strong> 	</strong><strong><span lang="en-US">wmf</span></strong>)</li>
+<li><span lang="en-US">Microsoft 	Word (</span><strong><span lang="en-US">doc dot docx dotx</span></strong>)</li>
+<li><span lang="en-US">Microsoft 	Excel (</span><strong><span lang="en-US">xls xlw xlt xlsx xltx</span></strong>)</li>
+<li><span lang="en-US">Microsoft 	Powerpoint (</span><strong><span lang="en-US">ppt pps pot pptx potx</span></strong>)</li>
+<li><span lang="en-US">Open 	Office (</span><strong><span lang="en-US">odt ods odp odg ott ots 	otp otg</span></strong>)</li>
+<li>Postscript 	(<strong>ps</strong>)</li>
+<li>Text 	(<strong>rtf txt</strong>)</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Using pdf24 you can:</p>
+<p>&nbsp;</p>
+<p><span lang="en-US">1. Create a PDF file online &ndash; the form in the lower part of the home page allows that. As an example, I tried to create a PDF from the Word 2010 document. Generation was successful, and the converted file was sent to the e-mail address. All links and formatting of the original PDF document remained the same.</span></p>
+<p><span lang="en-US">2. Create a PDF file by sending a source document to the e-mail service.</span></p>
+<p><span lang="en-US">3. Use the desktop client to create a PDF offline.</span></p>
+<p>&nbsp;</p>
+<p>I downloaded the latest version of the client and tried to create a small PDF document with some links in it. Here is the main window of the client:</p>
+<p>&nbsp;</p>
+<p>(screen)</p>
+<p>&nbsp;</p>
+<p>Let&rsquo;s drop a document from the Explorer window to the tool, and it creates a PDF for us:</p>
+<p>&nbsp;</p>
+<p>(screen)</p>
+<p>&nbsp;</p>
+<p><span lang="en-US">Unfortunately, the results was different from that gained via the online version &ndash; </span><span lang="en-US"><b>the destination document didn&rsquo;t preserve links</b></span><span lang="en-US">. As for the rest, the file is quite compact; the original formatting of the document stays the same. <a href="http://pdf24.org">http://pdf24.org</a><br />
+</span></p>
+<h2>Bulzip PDF Printer</h2>
+<p><span lang="en-US">A small yet quite handy free PDF-printer.</span></p>
+<p>&nbsp;<img width="400" height="347" src="/bullzip.jpg" longdesc="undefined" alt="" /></p>
+<p>You can download it <a href="http://www.bullzip.com/products/pdf/info.php">here</a>.</p>
+<p>&nbsp;</p>
+<p>The printer settings window looks as follows.&nbsp;</p>
+<p>Here we can specify the following settings:</p>
+<p>1. Output document format: DMP, JPEG, PCX, PDF, PNG, TIFF</p>
+<p>2. Merge two PDF-files, if a new file will have the same name as a previously created one.</p>
+<p>3. Specify an owner&rsquo;s password to prevent unauthorized modifying of the PDF file.</p>
+<p>4. Add watermarks to document&rsquo;s pages, and also adjust some other settings.</p>
+<p>&nbsp;</p>
+<p><span lang="en-US">As an example I decided to create a PDF file from the same document as before. The results were: links were not kept, the formatting remained the same, and the size of the output document turned out to be less than that of the document made with the pdf24 client.</span></p>
+<p>&nbsp;</p>
+<p>If links in the document aren&rsquo;t crucial for you, Bulzip PDF Printer is the excellent choice to generate PDF files of various sizes.</p>
+<p>&nbsp;</p>
+<h2>Using OpenOffice capabilities</h2>
+<p><span lang="en-US">If you&rsquo;re using OpenOffice, creating a PDF isn&rsquo;t a problem for you. To create a PDF, simply run Writer, open the desired document and click the &ldquo;</span><span lang="en-US"><b>Export to PDF</b></span><span lang="en-US">&rdquo; button.</span></p>
+<p>&nbsp;</p>
+<p>The output PDF preserves all links within the document as well as its format.</p>
+<p>&nbsp;</p>
+<p>Of course, installing OpenOffice for the only sake of creating PDF files is like using sledgehammer to crack nuts, but if you often use OpenOffice in your everyday work &ndash; this variant is the best for you.</p>
+<p>&nbsp;</p>
+<h2>Using Google Docs capabilities</h2>
+<p>This is another legally free way to generate PDF files. To create a PDF, simply upload a file to your Google Docs account and convert it to Google format.</p>
+<p>&nbsp;</p>
+<p><span lang="en-US">Then open that file and in the menu select &ldquo;</span><span lang="en-US"><b>File &ndash; Download as &ndash; PDF</b></span><span lang="en-US">&rdquo;</span></p>
+<p>&nbsp;</p>
+<p>The output file keeps the format of the original document, but doesn&rsquo;t preserve links. The other disadvantage of this method is a quite large size of the destination PDF file.</p>
+<p>&nbsp;</p>
+<p><span lang="en-US">As for the size of the output PDF file. For the test I was using a file in the </span><span lang="en-US"><b>docx</b></span><span lang="en-US"> format with the size of </span><span lang="en-US"><b>18,355 Kb</b></span></p>
+<p>&nbsp;</p>
+<p><b>Results (the size of the output PDF):</b></p>
+<p><span lang="en-US">1. pdf24.org service: from </span><span lang="en-US"><b>44,732 Kb </b></span><span lang="en-US">(online converter) to </span><span lang="en-US"><b>72,375 Kb</b></span><span lang="en-US"> (offline client)</span></p>
+<p><span lang="en-US">2. Bulzip PDF Printer: </span><span lang="en-US"><b>34,034 Kb</b></span><span lang="en-US"> with default settings</span></p>
+<p><span lang="en-US">3. OpenOffice: </span><span lang="en-US"><b>63,663 Kb</b></span></p>
+<p><span lang="en-US">4. Google Docs: </span><span lang="en-US"><b>191,979 Kb</b></span></p>
+<p>&nbsp;</p>
+<p><span lang="en-US">Summarizing, if you aim for the smallest size of output PDF file, you better use Bulzip PDF Printer.</span></p>
+<p>&nbsp;</p>
+<p>If you want to preserve all links and formatting in your PDF file, the best cost-effective solution is the online converter<a href="http://pdf24.org"> pdf24.org</a>.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+  </div>
+
+  <div class="links-wrapper">
+          </div>
+
+</div>
+        </div>
+      
+                </div> <!-- /#page -->
+
+
+    <div id="closure">
+      <div id="info">
+        © 2010-2012 Quick-PDF Software. All rights reserved..       </div>
+
+                <ul class="links secondary-links"><li class="menu-159 first"><a href="/articles.htm" title="">articles</a></li>
+<li class="menu-157"><a href="/about.htm" title="">about us</a></li>
+<li class="menu-158 last"><a href="/privacy.htm" title="">privacy policy</a></li>
+</ul>          </div> <!-- /#closure -->
+
+  </div> <!-- /#main -->
+</div> <!-- /#main-wrapper -->
+
+
+
+
+
+    </div> <!-- /#main-columns -->
+  </div> <!-- /#main-columns-wrapper -->
+  
+  
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-19866266-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>

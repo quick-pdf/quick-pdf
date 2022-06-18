@@ -1,0 +1,362 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="en-us">
+<title>PDF to Word | Convert PDF into MS Word | PDF to RTF conversion</title>
+
+<meta name="keywords" content="pdf2word,pdf to word">
+<meta name="description" content="Software for converting PDF files to Word">
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="layout.css" rel="stylesheet" type="text/css" />
+<script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+-->
+</script>
+
+<script type="text/javascript">
+window.onload = setLinkBehaviours;
+function formatLink(link)
+{
+  var res;
+  var re = /http:\/\/(.*)/ig;
+  res = link.replace(re, "$1");
+  re = /\//g;
+  return res.replace(re, "_");
+}
+ 
+function setLinkBehaviours()
+{
+    var Links = document.getElementsByTagName( ‘A’ );
+    for( var i = 0; i < Links.length; i++ )
+    {
+        Links[i].onclick = function() {
+            if(this.href.indexOf("http")>=0 && this.href.indexOf("quick-pdf.com")>=0)
+            {
+                urchinTracker("/tracker/" + formatLink(this.href));
+                        }
+        }
+    }
+}
+</script>
+</head>
+<body id="page" onload="FP_preloadImgs(/*url*/'button25.jpg', /*url*/'button26.jpg', /*url*/'button29.jpg', /*url*/'button2A.jpg', /*url*/'button41.jpg', /*url*/'button42.jpg'); MM_preloadImages('images/m_1_hov.gif','images/m_2_hov.gif','images/m_3_hov.gif','images/m_4_hov.gif','images/m_5_hov.gif')">
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-5933280-1");
+pageTracker._trackPageview();
+</script>
+
+
+
+
+<div id="main" style="width: 766px; height: 646px">
+	<div style="position: absolute; width: 205px; height: 616px; z-index: 1; left: 783px; top: 182px" id="layer1">
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		&nbsp;<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p style="text-align: center"><a href="PDF2WordSetup.exe" onClick="javascript: pageTracker._trackPageview('/downloads/pdf_to_word'); ">
+		<img border="0" id="img1" src="button24.jpg" height="30" width="150" alt="Download Now" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button25.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button24.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button26.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button25.jpg')" fp-style="fp-btn: Metal Rectangle 2; fp-font-size: 12" fp-title="Download Now"></a></p>
+		<p>&nbsp;</p>
+		<p style="text-align: center"><a href="purchase.htm">
+		<img border="0" id="img2" src="button28.jpg" height="26" width="131" alt="Buy Now" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'button29.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'button28.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'button2A.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'button29.jpg')" fp-style="fp-btn: Metal Rectangle 4; fp-font-size: 12" fp-title="Buy Now"></a></p>
+		<p style="text-align: center">
+		&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p style="text-align: center">
+		<a target="_blank" href="pdf-to-word-01.jpg">
+		<img border="0" src="pdf-to-word-01-thumb.jpg" width="200" height="164"></a><p style="text-align: center">&nbsp;<p style="text-align: center">
+		<a target="_blank" href="pdf-to-word-02.jpg">
+		<img border="0" src="pdf-to-word-02-thumb.jpg" width="200" height="164"></a><p style="text-align: center">&nbsp;<p style="text-align: center">
+		<a target="_blank" href="pdf-to-word-03.jpg">
+		<img border="0" src="pdf-to-word-03-thumb.jpg" width="200" height="164"></a></div>
+	<!--header -->
+	<div id="header">
+		<div class="column">
+				<img src="images/spacer.gif" alt="" width="31" height="1" /><a href="http://www.quick-pdf.com"><img src="images/logo.gif" alt="Quick-PDF.com - Software for converting PDF into Word RTF, HTML, Text and JPEG" border="0" /></a><br />
+		</div>
+	  <div class="column_1">
+			<div class="block_h">
+				&nbsp;</div>
+		  	<a onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3','','images/m_1_hov.gif',1)" href="/"><img src="images/m_1.gif" alt="PDF to Word, PDF to HTML, PDF to JPEG, PDF to TEXT software" name="Image3" width="103" height="56" border="0" id="Image3" /></a><a onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images/m_2_hov.gif',1)" href="products.htm"><img src="images/m_2.gif" alt="PDF converters software" name="Image4" width="103" height="56" border="0" id="Image4" /></a><a onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image5','','images/m_3_hov.gif',1)" href="download.htm"><img src="images/m_3.gif" alt="Download PDF software" name="Image5" width="103" height="56" border="0" id="Image5" /></a><a onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image6','','images/m_4_hov.gif',1)" href="purchase.htm"><img src="images/m_4.gif" alt="Purchase PDF tools" name="Image6" width="103" height="56" border="0" id="Image6" /></a><a onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image7','','images/m_5_hov.gif',1)" href="support.htm"><img src="images/m_5.gif" alt="Quick-PDF support service" name="Image7" width="102" height="56" border="0" id="Image7" /></a><br />
+		</div>
+		<div class="clear"></div>
+	</div>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" id="table1" height="379">
+		<tr>
+			<td width="227" valign="top">
+	<div id="wrapper">
+		<div class="column">
+			<div class="indent">
+				<div class="side_left">
+					<div class="side_right">
+						<div class="side_bot">
+							<div class="top" style="width: 187px; height: 971px">
+								<div class="indent">
+									<br />
+									<img src="images/spacer.gif" alt="" width="1" height="22" /><ul>
+										<li><span lang="en-us">
+										<a href="pdf-to-html.htm">Convert PDF to HTML</a></span></li>
+										<li><span lang="en-us">
+										<a href="pdf-to-word.htm">Convert PDF to WORD</a></span></li>
+										<li><span lang="en-us">
+										<a href="pdf-to-text.htm">Convert PDF to TEXT</a></span></li>
+										<li><span lang="en-us">
+										<a href="pdf-to-image.htm">Convert PDF to 
+										IMAGE</a></span></li>
+									</ul>
+									<p>&nbsp;</p>
+									<ul>
+										<li><span lang="en-us">
+										<a href="download.htm">Download</a></span></li>
+										<li><span lang="en-us">
+										<a href="purchase.htm">Purchase</a></span></li>
+									</ul>
+									<ul>
+										<li><span lang="en-us">
+										<a href="support.htm">Contact us</a></span></li>
+									</ul>
+									<p>&nbsp;</p>
+									<ul>
+										<li><span lang="en-us">
+										<a href="privacy.htm">Privacy policy</a></span></li>
+										<li><span lang="en-us">
+										<a href="about.htm">About 
+										us</a></span></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div></td>
+			<td valign="top">
+				<div class="side_left">
+					<div class="side_right">
+						<div class="side_bot">
+							<div class="top" style="width: 539px; height: 970px">
+								<div class="indent">
+									<p class="title" style="margin-left: 10px">
+									<img src="images/spacer.gif" alt="" width="1" height="24" /></p>
+									<p style="margin-left: 10px"><br>
+									<font size="5" color="#FF9000"><b>PDF to Word converter</b></font></p>
+									<p style="margin-left: 10px">&nbsp;</p>
+									<p style="margin-left: 10px">&nbsp;</p>
+									<p style="margin-left: 10px"><font size="2">
+									<b>PDF to Word</b> is an easy-to-use 
+									software for converting a PDF document to an 
+									MS Word (RTF) document. The software 
+									supports all Adobe PDF modifications and it 
+									is possible to open the output RTF file with 
+									any version of MS Word, WordPad or 
+									OpenOffice. The PDF to Word converter 
+									retains the layout, images, text and 
+									formatting of the original PDF file. <br>
+									PDF to Word is a highly efficient standalone 
+									software which doesn&#39;t require Microsoft 
+									Word, Adobe Acrobat or Adobe Acrobat Reader 
+									installed.</font></p>
+									<p style="margin-left: 10px">&nbsp;</p>
+									<p style="margin-left: 10px"><font size="2">
+									You do not need any special skills to 
+									operate the software. Just drag and drop the 
+									document you want to convert to the main PDF 
+									to Word window and click &quot;Start Conversion&quot;.</font></p>
+									<p style="margin-left: 10px">&nbsp;</p>
+									<ul>
+										<li>
+										<p style="margin-left: 10px">
+										<font size="2">Fast and simple to use</font></p>
+										</li>
+										<li>
+										<p style="margin-left: 10px">
+										<font size="2">Batch conversion - 
+										convert multiple documents at once</font></p>
+										</li>
+										<li>
+										<p style="margin-left: 10px">
+										<font size="2">Support command line mode</font></p>
+										</li>
+										<li>
+										<p style="margin-left: 10px">
+										<font size="2">Accurately preserve text, 
+										pictures, and layout of the original PDF</font></p>
+										</li>
+										<li>
+										<p style="margin-left: 10px">
+										<font size="2">Support drag and drop PDF 
+										files for conversion</font></p></li>
+										<li>
+										<p style="margin-left: 10px">
+										<font size="2">Compatible with Windows 
+										95/98/2000/Me/XP/Vista</font></p></li>
+										<li>
+										<p style="margin-left: 10px">
+										<font size="2">Flexibility for power 
+										users</font></p></li>
+										<li>
+										<p style="margin-left: 10px">
+										<font size="2">Free lifetime updates</font></p>
+										</li>
+										<li>
+										<p style="margin-left: 10px">
+										<font size="2">Full money-back guarantee</font></p>
+										</li>
+									</ul>
+									<p style="margin-left: 10px">&nbsp;</p>
+									<p style="margin-left: 10px">&nbsp;</p>
+									<p style="margin-left: 10px">
+									<a href="PDF2WordSetup.exe" onClick="javascript: pageTracker._trackPageview('/downloads/pdf_to_word'); ">
+		<img border="0" id="img6" src="button40.jpg" height="26" width="131" alt="Download Now" onmouseover="FP_swapImg(1,0,/*id*/'img6',/*url*/'button41.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img6',/*url*/'button40.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img6',/*url*/'button42.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img6',/*url*/'button41.jpg')" fp-style="fp-btn: Metal Rectangle 2; fp-font-size: 12; fp-orig: 0" fp-title="Download Now"</a></a>
+									<a href="purchase.htm">
+									<img border="0" id="img7" src="button28.jpg" height="26" width="131" alt="Buy Now" onmouseover="FP_swapImg(1,0,/*id*/'img7',/*url*/'button29.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img7',/*url*/'button28.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img7',/*url*/'button2A.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img7',/*url*/'button29.jpg')" fp-style="fp-btn: Metal Rectangle 4; fp-font-size: 12; fp-orig: 0" fp-title="Buy Now"></a>
+
+
+									</p>
+									<p style="margin-left: 10px">&nbsp;</p>
+									<p style="margin-left: 10px">&nbsp;</p>
+									<p>
+									&nbsp;</p>
+									<p style="margin-left: 10px">
+									<span lang="EN-US">
+									<font style="font-size: 9pt;" color="#383a3b" face="Verdana">
+									&nbsp;</font><b><font color="#265A95" face="Arial" size="4">Awards</font></b><font style="font-size: 9pt;" color="#383a3b" face="Verdana"><br>
+									&nbsp;</font></span></p>
+									<table id="table2" border="0" cellpadding="0" cellspacing="0" width="539">
+										<tr>
+											<td valign="top" width="10">&nbsp;</td>
+											<td align="center" valign="top" width="75">
+											<img border="0" src="best_product2005.gif" width="59" height="63"></td>
+											<td align="center" valign="top" width="75">
+											<img border="0" src="Award_CHIPOnline.jpg" width="59" height="51"></td>
+											<td align="center" valign="top" width="75">
+											<img border="0" src="2006_11_best4download.gif" width="59" height="36"></td>
+											<td align="center" valign="top" width="76">
+											<img border="0" src="pcmag_2006.gif" width="59" height="119"></td>
+											<td align="center" valign="top" width="76">
+											<img border="0" src="softpedia-award.gif" width="65" height="45"></td>
+											<td align="center" valign="top" width="76">
+											<img border="0" src="vista_award.gif" width="59" height="30"></td>
+											<td align="center" valign="top" width="76">
+											<img border="0" src="z-award_5star.png" width="65" height="46"></td>
+										</tr>
+									</table>
+									<p style="margin-left: 10px">&nbsp;</p>
+									<p style="margin-left: 10px">&nbsp;</p>
+									<p style="margin-left: 10px"><b>
+									<font size="4" color="#265A95">Testimonials</font></b></p>
+									<p style="margin-left: 10px">&nbsp;</p>
+									<p style="margin-left: 10px">
+									<font color="#383a3b">
+									<font style="font-size: 9pt;" face="Verdana">
+									<span class="style2">&quot;</span></font><span class="postbody"><font style="font-size: 9pt;" face="Verdana">Thanks 
+									for the great app; it couldn&#39;t be easier. 
+									Works best. I really love PDF to Word!&quot;</font></span></font></p>
+									<p style="margin-left: 10px" align="right">
+									<b>
+									<font face="Verdana" style="font-size: 9pt" color="#383A3B">
+									Joseph Simpson</font></b></p>
+									<p style="margin-left: 10px">
+									<font style="font-size: 9pt;" color="#383a3b" face="Verdana">
+									&quot;PDF to WOrd works well, is bug free from 
+									what I can see and very dependable... great 
+									quality!&quot; </font></p>
+									<p style="margin-left: 10px" align="right">
+									<b>
+									<font face="Verdana" style="font-size: 9pt" color="#383A3B">
+									Larisa Lester</font></b></p>
+									<p style="margin-left: 10px">
+									<font style="font-size: 9pt;" color="#383a3b" face="Verdana">
+									&quot;Quick-PDF, your customer service is 
+									excellent! You have gone above and beyond 
+									what I expected in helping me with the 
+									installation. Thank you for all the help.&quot;
+									</font></p>
+									<p style="margin-left: 10px" align="right">
+									<b>
+									<font face="Verdana" style="font-size: 9pt" color="#383A3B">
+									Samson Hu</font></b></p>
+
+
+		<p>&nbsp;</p>
+										</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				</td>
+		</tr>
+	</table>
+	<p><br>
+	<span lang="en-us">(c) Copyright 2008 <a href="http://www.quick-pdf.com"  class="link_2">
+	Quick-PDF.com</a>. All rights reserved.</span></div>	
+</body>
+
+</html>

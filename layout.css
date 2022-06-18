@@ -1,0 +1,38 @@
+#main { width:766px;}
+
+
+/*---header---*/
+#main #header {height:182px;}
+#main #header .column{ width:227px; float:left;}
+#main #header .column_1{ width:514px; float:left;}
+/*---header---*/
+
+/*---page---*/
+#page .column{ width:210px; float:left;}
+#page .column_1{ width:344px; float:left;}
+#page .column_2{ width:212px; float:left;}
+/*---// page---*/
+
+/*---page_1---*/
+#page_1 .column{ width:551px; float:left;}
+#page_1 .column_1{ width:190px; float:left;}
+/*---// page_1---*/
+
+/*---page_2---*/
+#page_2 .column{ width:541px; float:left;}
+#page_2 .column_1{ width:200px; float:left;}
+/*---// page_2---*/
+
+/*---page_3---*/
+#page_3 .column{ width:521px; float:left;}
+#page_3 .column_1{ width:220px; float:left;}
+/*---// page_3---*/
+
+/*---page_4---*/
+#page_4 .column{ width:551px; float:left;}
+#page_4 .column_1{ width:190px; float:left;}
+/*---// page_4---*/
+
+/*---page_5---*/
+#page_5 .column{ width:741px;}
+/*---// page_5---*/
