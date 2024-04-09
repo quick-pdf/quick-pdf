@@ -21,26 +21,26 @@
     <Backlink></Backlink>
   </RoboSoft>
   <Company_Info>
-    <Company_Name>Quick-PDF.com</Company_Name>
+    <Company_Name>Quick-PDF Software Inc.</Company_Name>
     <Address_1>Novorossiyskaya 21 129</Address_1>
     <Address_2></Address_2>
     <City_Town>Moscow</City_Town>
     <State_Province></State_Province>
     <Zip_Postal_Code>109559</Zip_Postal_Code>
     <Country>Russian Federation</Country>
-    <Company_WebSite_URL>http://www.quick-pdf.com</Company_WebSite_URL>
+    <Company_WebSite_URL>https://quick-pdf.github.io/</Company_WebSite_URL>
     <Contact_Info>
       <Contact_First_Name>Mikhail</Contact_First_Name>
       <Contact_Last_Name>Baranov</Contact_Last_Name>
-      <Contact_Email>submit@quick-pdf.com</Contact_Email>
+      <Contact_Email>promainfo1@gmail.com</Contact_Email>
       <Author_First_Name>Mikhail</Author_First_Name>
       <Author_Last_Name>Baranov</Author_Last_Name>
-      <Author_Email>support@quick-pdf.com</Author_Email>
+      <Author_Email>promainfo1@gmail.com</Author_Email>
     </Contact_Info>
     <Support_Info>
-      <Sales_Email>sales@quick-pdf.com</Sales_Email>
-      <Support_Email>support@quick-pdf.com</Support_Email>
-      <General_Email>support@quick-pdf.com</General_Email>
+      <Sales_Email>promainfo1@gmail.com</Sales_Email>
+      <Support_Email>promainfo1@gmail.com</Support_Email>
+      <General_Email>promainfo1@gmail.com</General_Email>
       <Sales_Phone>+79035585307</Sales_Phone>
       <Support_Phone>+79035585307</Support_Phone>
       <General_Phone>+79035585307</General_Phone>
@@ -58,11 +58,11 @@
     <OISV_Member_Number></OISV_Member_Number>
   </OISV>
   <Program_Info>
-    <Program_Name>PDF to TEXT</Program_Name>
-    <Program_Version>1.0</Program_Version>
-    <Program_Release_Month>09</Program_Release_Month>
-    <Program_Release_Day>06</Program_Release_Day>
-    <Program_Release_Year>2008</Program_Release_Year>
+    <Program_Name>Quick-PDF PDF to TEXT</Program_Name>
+    <Program_Version>1.1</Program_Version>
+    <Program_Release_Month>04</Program_Release_Month>
+    <Program_Release_Day>09</Program_Release_Day>
+    <Program_Release_Year>2024</Program_Release_Year>
     <Program_Cost_Dollars>19.95</Program_Cost_Dollars>
     <Program_Type>Shareware</Program_Type>
     <Program_Release_Status>New Release</Program_Release_Status>
@@ -102,15 +102,15 @@
   </Program_Info>
   <Web_Info>
     <Application_URLs>
-      <Application_Info_URL>http://www.quick-pdf.com/pdf-to-text.htm</Application_Info_URL>
-      <Application_Order_URL>http://www.quick-pdf.com/purchase.htm</Application_Order_URL>
-      <Application_Screenshot_URL>http://www.quick-pdf.com/pdf-to-text-01.jpg</Application_Screenshot_URL>
-      <Application_Icon_URL>http://www.extralabs.net/feed-editor-icon.gif</Application_Icon_URL>
-      <Application_XML_File_URL>http://www.quick-pdf.com/pdf-to-text-pad.xml</Application_XML_File_URL>
+      <Application_Info_URL>https://quick-pdf.github.io/pdf-to-text.htm</Application_Info_URL>
+      <Application_Order_URL>https://quick-pdf.github.io/purchase.htm</Application_Order_URL>
+      <Application_Screenshot_URL>https://quick-pdf.github.io/pdf-to-text-01.jpg</Application_Screenshot_URL>
+      <Application_Icon_URL></Application_Icon_URL>
+      <Application_XML_File_URL>https://quick-pdf.github.io/pdf-to-text-pad.xml</Application_XML_File_URL>
     </Application_URLs>
     <Download_URLs>
-      <Primary_Download_URL>http://www.quick-pdf.com/PDF2TextSetup.exe</Primary_Download_URL>
-      <Secondary_Download_URL>http://www.quick-pdf.com/PDF2TextSetup.zip</Secondary_Download_URL>
+      <Primary_Download_URL>https://quick-pdf.github.io/PDF2TextSetup.exe</Primary_Download_URL>
+      <Secondary_Download_URL>https://quick-pdf.github.io/PDF2TextSetup.zip</Secondary_Download_URL>
       <Additional_Download_URL_1></Additional_Download_URL_1>
       <Additional_Download_URL_2></Additional_Download_URL_2>
     </Download_URLs>
